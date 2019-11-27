@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Hackiftekhar.IQKeyboardManager.Xamarin</id>
+    <version>6.5.4</version>
+    <title>Hackiftekhar.IQKeyboardManager.Xamarin</title>
+    <description>Xamarin Binding for IQKeyboardManager</description>
+    <summary>Xamarin Binding for IQKeyboardManager</summary>
+    <authors>Ed Lomonaco</authors>
+    <owners>Ed Lomonaco</owners>
+    <projectUrl>https://github.com/eman1986/Hackiftekhar.IQKeyboardManager.Xamarin</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <tags>IQKeyboardManager, xamarin, ios, xamarin.ios, keyboard</tags>
+    <releaseNotes>
+        Based off of IQKeyboardManager 6.5.4
+    </releaseNotes>
+    </metadata>
+    <files>
+        <file src="bin\Debug\Hackiftekhar.IQKeyboardManager.Xamarin.dll" target="lib\xamarinios10" />
+        <file src="bin\Debug\Hackiftekhar.IQKeyboardManager.Xamarin.pdb" target="lib\xamarinios10" />
+    </files>
+</package>
