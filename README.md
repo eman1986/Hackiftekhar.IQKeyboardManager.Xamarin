@@ -1,5 +1,7 @@
 # Hackiftekhar.IQKeyboardManager.Xamarin
 
+![Nuget](https://img.shields.io/nuget/dt/Hackiftekhar.IQKeyboardManager.Xamarin)
+
 Xamarin Binding for [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager)
 
 Based on IQKeyboardManager 6.5.4
