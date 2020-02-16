@@ -4,7 +4,7 @@
 
 Xamarin Binding for [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager)
 
-Based on IQKeyboardManager 6.5.4
+Based on IQKeyboardManager 6.5.5
 
 Refer to demo app on usage and also look at the official library for the full api.
 

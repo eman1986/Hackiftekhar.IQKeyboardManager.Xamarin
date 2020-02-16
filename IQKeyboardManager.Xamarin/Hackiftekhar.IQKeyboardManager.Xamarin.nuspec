@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Hackiftekhar.IQKeyboardManager.Xamarin</id>
-    <version>6.5.4</version>
+    <version>6.5.5</version>
     <title>Hackiftekhar.IQKeyboardManager.Xamarin</title>
     <description>Xamarin iOS Binding for IQKeyboardManager</description>
     <summary>Xamarin iOS Binding for IQKeyboardManager</summary>
@@ -16,7 +16,7 @@
     <license type="expression">MIT</license>
     <tags>IQKeyboardManager, xamarin, ios, xamarin.ios, keyboard</tags>
     <releaseNotes>
-        Based off of IQKeyboardManager 6.5.4
+        Based off of IQKeyboardManager 6.5.5
     </releaseNotes>
     </metadata>
     <files>
