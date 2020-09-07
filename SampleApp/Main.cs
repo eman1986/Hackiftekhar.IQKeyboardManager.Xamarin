@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace IQKeyboardManager.Xamarin.Demo
+namespace SampleApp
 {
     public class Application
     {

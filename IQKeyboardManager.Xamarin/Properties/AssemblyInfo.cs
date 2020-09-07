@@ -9,7 +9,7 @@ using ObjCRuntime;
 // even if you’re using the “Link SDK assemblies only” option, which is the default for device builds.
 
 [assembly: LinkerSafe]
-[assembly: LinkWith ("libIQKeyboardManager.a", LinkTarget.Simulator | LinkTarget.ArmV7 | LinkTarget.Arm64, ForceLoad = true, SmartLink=true)]
+[assembly: LinkWith ("libIQKeyboardManager.a", LinkTarget.Simulator | LinkTarget.ArmV7 | LinkTarget.Arm64, ForceLoad = true, SmartLink=true, LinkerFlags = "-ObjC")]
 
 // Information about this assembly is defined by the following attributes.
 // Change them to the values specific to your project.
@@ -19,7 +19,7 @@ using ObjCRuntime;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Hackiftekhar.IQKeyboardManager.Xamarin")]
-[assembly: AssemblyCopyright("Copyright © Ed Lomonaco 2019")]
+[assembly: AssemblyCopyright("Copyright © Ed Lomonaco 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -1,20 +1,23 @@
-﻿using System;
 using UIKit;
+using Hackiftekhar.IQKeyboardManager.Xamarin;
 
-namespace Hackiftekhar.IQKeyboardManager.Xamarin.Demo
+namespace SampleApp
 {
-    public partial class ViewController : UIViewController
+    public partial class DemoViewController : UIViewController
     {
-        public ViewController(IntPtr handle) : base(handle)
+        public DemoViewController() : base("DemoViewController", null)
         {
-            // Note: this .ctor should not contain any initialization logic.
         }
 
         public override void ViewDidLoad()
         {
+            base.ViewDidLoad();
+
             IQKeyboardManager.SharedManager().EnableAutoToolbar = true;
+            IQKeyboardManager.SharedManager().ShouldPlayInputClicks = false;
             IQKeyboardManager.SharedManager().ShouldResignOnTouchOutside = true;
             IQKeyboardManager.SharedManager().ShouldToolbarUsesTextFieldTintColor = true;
         }
     }
 }
+
