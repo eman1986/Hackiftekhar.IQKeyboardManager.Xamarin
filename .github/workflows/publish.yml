@@ -1,0 +1,26 @@
+name: NuGet_Publish
+
+on:
+#  push:
+#    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    env:
+      NUGET_AUTH_TOKEN: ${{secrets.NUGET_API_TOKEN}}
+
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build and generate uCrop
+      run: |
+        cd IQKeyboardManager.Xamarin
+        dotnet restore
+        msbuild IQKeyboardManager.Xamarin.csproj /p:Configuration=Release
+        nuget pack Hackiftekhar.IQKeyboardManager.Xamarin.nuspec
+        nuget push "*.nupkg" -SkipDuplicate -NoSymbols -ApiKey $NUGET_AUTH_TOKEN -Source https://api.nuget.org/v3/index.json
