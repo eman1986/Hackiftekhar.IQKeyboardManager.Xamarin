@@ -1,5 +1,7 @@
 # Hackiftekhar.IQKeyboardManager.Xamarin
 
+![NuGet_Publish](https://github.com/eman1986/Hackiftekhar.IQKeyboardManager.Xamarin/workflows/NuGet_Publish/badge.svg?branch=master)
+
 ![Nuget](https://img.shields.io/nuget/dt/Hackiftekhar.IQKeyboardManager.Xamarin)
 
 Xamarin Binding for [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager)
