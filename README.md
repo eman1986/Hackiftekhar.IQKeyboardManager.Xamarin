@@ -1,5 +1,7 @@
 # Hackiftekhar.IQKeyboardManager.Xamarin
 
+**This project will no longer be updated as I've moved to developing using native code**
+
 ![NuGet_Publish](https://github.com/eman1986/Hackiftekhar.IQKeyboardManager.Xamarin/workflows/NuGet_Publish/badge.svg?branch=master)
 
 ![Nuget](https://img.shields.io/nuget/dt/Hackiftekhar.IQKeyboardManager.Xamarin)
